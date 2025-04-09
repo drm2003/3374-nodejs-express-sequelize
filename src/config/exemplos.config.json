@@ -1,0 +1,28 @@
+const { Sequelize
+} = require('sequelize');
+
+// Opção 1: 
+const sequelize = new Sequelize('sqlite: :memory:') // Exemplo SQLite
+const sequelize = new Sequelize('postgres: //user:pass@hostdobanco.com:5432/nomedb) // Exemplo Postgres
+// Opção 2: 
+// Criar uma nova instância de Sequelize recebendo os parâmetros (SQLite)
+const sequelize = new Sequelize({
+  dialect: 'sqlite',
+  storage: 'caminho/database.sqlite'
+});
+
+// Opção 3: 
+// Criar uma nova instância de Sequelize recebendo os parâmetros (outros dialetos)
+const sequelize = new Sequelize('database', 'username', 'password',
+{
+  host: 'localhost',
+  dialect: /* escolher entre 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
+});
+
+
+
+
+// Strings ou URIs de conexão
+// postgres: //user:senha@host:porta/nomeDaDatabase
+// postgres://seuuser:minhaSenhaForte@345096@localhost:5432/escola
+// mysql://seuuser:minhaSenhaForte@345096@localhost:3306/escola
