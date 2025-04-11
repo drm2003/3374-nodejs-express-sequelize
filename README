@@ -46,18 +46,19 @@
     mysql://seuuser:minhaSenhaForte@345096@localhost:3306/escola
     
 7. Criando modelo de dados
-    
-    npx sequelize - cli model: generate--name Pessoa--attributes nome: string, email: string, cpf: string, ativo: boolean, role: string
+    npx sequelize-cli model:generate --name Pessoa --attributes nome:string,email:string,cpf:string,ativo:boolean,role:string
 
-8. Criando seeders
-    npx sequelize - cli seed: generate--name demo - pessoa
-    
-9. Adicionando dados no seeder 
-    9.1. após criar o arquivo anterior, então pode alimentar:
-    
-        npx sequelize - cli db: seed: all
+8. Migrando para o banco de dados
+    npx sequelize-cli db:migrate
 
-10. Para saber mais: CLI do Sequelize
+9. Criando seeders
+    npx sequelize-cli seed:generate --name demo-pessoa
+    
+10. Adicionando dados no seeder 
+    10.1. após criar o arquivo anterior, então pode alimentar:
+        npx sequelize-cli db:seed:all
+
+11. Para saber mais: CLI do Sequelize
 
 
 Comando:	Descrição:
@@ -82,4 +83,4 @@ sequelize model:generate	Gera uma model e sua migração [alias: model:create]
 sequelize seed:generate	Gera um novo arquivo de seed
 
 
-11. Links da aula
+12. Links da aula
