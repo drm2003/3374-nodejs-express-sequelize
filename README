@@ -57,6 +57,7 @@
 10. Adicionando dados no seeder 
     10.1. após criar o arquivo anterior, então pode alimentar:
         npx sequelize-cli db:seed:all
+        npx sequelize-cli db:seed --seed 20250411131614-demo-categorias.js
 
 11. Para saber mais: CLI do Sequelize
 
@@ -101,3 +102,16 @@
         Documentação sobre o update (https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#simple-update-queries)
         API reference do método findAll (https://sequelize.org/api/v6/class/src/model.js~model#static-method-findAll)
         API reference do método update (https://sequelize.org/api/v6/class/src/model.js~model#static-method-update)
+
+
+14. Aula 04
+
+    Links da aula:
+    Documentação do Sequelize
+        Associações (https://sequelize.org/docs/v6/core-concepts/assocs/);
+        Migrações (https://sequelize.org/docs/v6/other-topics/migrations/);
+        Seeds (https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed).
+    Mais sobre SQL
+        Formação SQL com Postgres (https://cursos.alura.com.br/formacao-postgresql);
+        Formação SQL com MySQL (https://cursos.alura.com.br/formacao-oracle-mysql);
+        Mais informações sobre normalização de bancos de dados (https://www.alura.com.br/artigos/normalizacao-banco-de-dados-estrutura).     
