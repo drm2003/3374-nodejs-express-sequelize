@@ -60,27 +60,44 @@
 
 11. Para saber mais: CLI do Sequelize
 
-
-Comando:	Descrição:
-sequelize db:migrate	Executa todas as migrações pendentes para atualizar o banco de dados
-sequelize db:migrate:schema:timestamps:add	Atualiza uma tabela de migração para ter marcação de data/hora
-sequelize db:migrate:status	Exibe o status de todas as migrações
-sequelize db:migrate:undo	Reverte a migração mais recente do banco de dados
-sequelize db:migrate:undo:all	Reverte todas as migrações executadas
-sequelize db:seed	Executa um seeder específico
-sequelize db:seed:undo	Deleta os últimos dados inseridos via seeds do banco de dados
-sequelize db:seed:all	Executa todos os seeders
-sequelize db:seed:undo:all	Deleta todos os dados inseridos via seeds do banco de dados
-sequelize db:create	Cria um banco com uma configuração específica
-sequelize db:drop	Exclui o banco de dados especificado na configuração
-sequelize init	Inicia um projeto
-sequelize init:config	Inicia as configurações
-sequelize init:migrations	Inicia as migrações
-sequelize init:models	Inicia os modelos
-sequelize init:seeders	Inicia os seeders
-sequelize migration:generate	Gera um novo arquivo de migração
-sequelize model:generate	Gera uma model e sua migração [alias: model:create]
-sequelize seed:generate	Gera um novo arquivo de seed
+    Comando:	Descrição:
+    sequelize db:migrate	Executa todas as migrações pendentes para atualizar o banco de dados
+    sequelize db:migrate:schema:timestamps:add	Atualiza uma tabela de migração para ter marcação de data/hora
+    sequelize db:migrate:status	Exibe o status de todas as migrações
+    sequelize db:migrate:undo	Reverte a migração mais recente do banco de dados
+    sequelize db:migrate:undo:all	Reverte todas as migrações executadas
+    sequelize db:seed	Executa um seeder específico
+    sequelize db:seed:undo	Deleta os últimos dados inseridos via seeds do banco de dados
+    sequelize db:seed:all	Executa todos os seeders
+    sequelize db:seed:undo:all	Deleta todos os dados inseridos via seeds do banco de dados
+    sequelize db:create	Cria um banco com uma configuração específica
+    sequelize db:drop	Exclui o banco de dados especificado na configuração
+    sequelize init	Inicia um projeto
+    sequelize init:config	Inicia as configurações
+    sequelize init:migrations	Inicia as migrações
+    sequelize init:models	Inicia os modelos
+    sequelize init:seeders	Inicia os seeders
+    sequelize migration:generate	Gera um novo arquivo de migração
+    sequelize model:generate	Gera uma model e sua migração [alias: model:create]
+    sequelize seed:generate	Gera um novo arquivo de seed
 
 
 12. Links da aula
+
+    Tipos de dados do Sequelize
+        Lista de tipos de dados do Sequelize (https://sequelize.org/docs/v6/core-concepts/model-basics/#data-types);
+        Data types específicos, que só podem ser usados para determinados bancos (https://sequelize.org/docs/v6/other-topics/other-data-types/).
+    Migrações e seeds
+        Documentação do Sequelize sobre migrações: como executar todas, reverter todas, reverter a última e executar migrações específicas
+            (https://sequelize.org/docs/v6/other-topics/migrations/#running-migrations);
+        Documentação do Sequelize sobre seeds: como criar seeds, executar seeds específicas e reverter seeds para retirar do banco os dados inseridos
+            https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed.
+
+
+13. Aula 03
+
+    Links da aula: 
+        Lista de métodos finders básicos (https://sequelize.org/docs/v6/core-concepts/model-querying-finders/)
+        Documentação sobre o update (https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#simple-update-queries)
+        API reference do método findAll (https://sequelize.org/api/v6/class/src/model.js~model#static-method-findAll)
+        API reference do método update (https://sequelize.org/api/v6/class/src/model.js~model#static-method-update)
