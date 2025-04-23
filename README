@@ -115,3 +115,17 @@
         Formação SQL com Postgres (https://cursos.alura.com.br/formacao-postgresql);
         Formação SQL com MySQL (https://cursos.alura.com.br/formacao-oracle-mysql);
         Mais informações sobre normalização de bancos de dados (https://www.alura.com.br/artigos/normalizacao-banco-de-dados-estrutura).     
+
+
+15. Aula 05
+
+    Seguem os links para conteúdos apresentados em vídeo ou citados durante esta aula:
+
+    Arquivos do projeto
+    Confira os arquivos adicionados ao projeto nesta aula:
+
+        Controllers; (https://github.com/alura-cursos/3374-nodejs-express-sequelize/tree/aula-5/src/controllers)
+        Services; (https://github.com/alura-cursos/3374-nodejs-express-sequelize/tree/aula-5/src/services)
+        Rotas. (https://github.com/alura-cursos/3374-nodejs-express-sequelize/tree/aula-5/src/routes)
+    Documentação do Sequelize
+        Métodos especiais/mixins. (https://sequelize.org/docs/v6/core-concepts/assocs/#special-methodsmixins-added-to-instances)

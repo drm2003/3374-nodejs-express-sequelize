@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         scope: {
           status: 'matriculado'
         },
-        as: 'matriculadas'
+        as: 'aulasMatriculadas'
       });
     }
   }
